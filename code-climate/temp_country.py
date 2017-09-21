@@ -4,6 +4,7 @@ import numpy as np
 import code
 from sklearn.linear_model import LinearRegression as LinReg
 
+# Dataset can be found here: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data
 data_raw = pd.read_csv('../GlobalLandTemperaturesByCountry.csv')
 
 # Fill in the missing data

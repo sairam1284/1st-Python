@@ -4,6 +4,7 @@ import numpy as np
 import code
 import psycopg2
 
+# Dataset can be found here: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data
 conn_string = "host='localhost' dbname='Climate_data' user='postgres' password='postgres'"
 print("Connecting to database", conn_string)
 conn = psycopg2.connect(conn_string)
